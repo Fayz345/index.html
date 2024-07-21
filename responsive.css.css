@@ -1,0 +1,365 @@
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .Firstsection {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 10px;
+    }
+
+    .leftsection {
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+
+    .rightsection {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .rightsection img {
+        width: 100%;
+        height: auto;
+    }
+
+    .secondsection {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .secondsection .box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .secondsection .vertical {
+        width: 100%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .footer-first {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .Mail {
+        font-size: 0.8rem;
+    }
+}
+
+/* Small devices (phones in landscape mode, 576px and up) */
+@media (min-width: 577px) and (max-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Firstsection {
+        flex-direction: column;
+        text-align: center;
+        margin: 60px 20px;
+    }
+
+    .leftsection {
+        font-size: 1.8rem;
+    }
+
+    .rightsection {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rightsection img {
+        width: 100%;
+        height: auto;
+    }
+
+    .secondsection {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .secondsection .box {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .secondsection .vertical {
+        width: 100%;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+
+    .footer-first {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .Mail {
+        font-size: 0.9rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 769px) and (max-width: 992px) {
+    nav ul {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .Firstsection {
+        flex-direction: row;
+        text-align: left;
+        margin: 60px 20px;
+    }
+
+    .leftsection {
+        font-size: 2rem;
+    }
+
+    .rightsection {
+        width: 50%;
+        text-align: left;
+    }
+
+    .rightsection img {
+        width: 100%;
+        height: auto;
+    }
+
+    .secondsection {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .secondsection .box {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .secondsection .vertical {
+        width: calc(100% / 3 - 30px);
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+
+    .footer-first {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .Mail {
+        font-size: 1rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    nav ul {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .Firstsection {
+        flex-direction: row;
+        text-align: left;
+        margin: 60px 40px;
+    }
+
+    .leftsection {
+        font-size: 2.5rem;
+    }
+
+    .rightsection {
+        width: 50%;
+        text-align: left;
+    }
+
+    .rightsection img {
+        width: 100%;
+        height: auto;
+    }
+
+    .secondsection {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .secondsection .box {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .secondsection .vertical {
+        width: calc(100% / 3 - 40px);
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+
+    .footer-first {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .Mail {
+        font-size: 1rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1201px) {
+    nav ul {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .Firstsection {
+        flex-direction: row;
+        text-align: left;
+        margin: 60px 80px;
+    }
+
+    .leftsection {
+        font-size: 3rem;
+    }
+
+    .rightsection {
+        width: 50%;
+        text-align: left;
+    }
+
+    .rightsection img {
+        width: 100%;
+        height: auto;
+    }
+
+    .secondsection {
+        width: 100%;
+        padding: 60px;
+    }
+
+    .secondsection .box {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .secondsection .vertical {
+        width: calc(100% / 3 - 40px);
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .footer-first {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .Mail {
+        font-size: 1.2rem;
+    }
+}
+
+/* 360px width devices */
+@media (max-width: 360px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+
+    .Firstsection {
+        flex-direction: column;
+        text-align: center;
+        margin: 15px 5px;
+    }
+
+    .leftsection {
+        font-size: 1.2rem;
+        margin: 15px 0;
+    }
+
+    .rightsection {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .rightsection img {
+        width: 100%;
+        height: auto;
+    }
+
+    .secondsection {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .secondsection .box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .secondsection .vertical {
+        width: 100%;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    .footer-first {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .Mail {
+        font-size: 0.7rem;
+    }
+}
